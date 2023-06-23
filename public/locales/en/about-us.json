@@ -1,0 +1,11 @@
+{
+  "page": "Page",
+  "clear": "Clear",
+  "close": "Close",
+  "create": "Create",
+  "edit": "Edit",
+  "goBack": "Go Back",
+  "pageError": "Looks like our service has something wrong",
+  "pageNotfoundTitle": "Sorry, we couldn't find this page",
+  "pageNotfoundDescription": "But don't worry, you can find plenty of other things on our homepage"
+}

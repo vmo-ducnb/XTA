@@ -1,0 +1,16 @@
+{
+  "min_8": "At least 8 characters",
+  "mixture": "A mixture of numbers, uppercase and lowercase letters",
+  "email_exited": "This email is already in use",
+  "required": "This field is required",
+  "email_incorrect": "The email format is incorrect",
+  "otp_incorrect": "The OTP is incorrect",
+  "otp_expired": "The OTP is expired",
+  "email_not_exited": "This email does not exist",
+  "email_password_incorrect": "The email or password is incorrect",
+  "new_password_same_old": "The new password must not be the same as the current password",
+  "confirm_password_incorrect": "The re-enter new password is incorrect with the new password",
+  "change_password_success": "Change password successfully",
+  "sign_up_success": "Sign up successfully",
+  "login_success": "Log in successfully"
+}

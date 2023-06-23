@@ -1,0 +1,8 @@
+variables:
+  SERVICE_NAME: xta23079-xtatuz-membership-fe
+  APP_TYPE: frontend
+include:
+  - project: 'c18/xta23079-xta-phase-1-web/backend/ci-script'
+    ref: master
+    file:
+      - '/.gitlab-ci.yml'

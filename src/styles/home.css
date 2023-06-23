@@ -1,0 +1,74 @@
+.home-banner .slick-prev:before {
+  display: none;
+}
+
+.home-banner .slick-next:before {
+  display: none;
+}
+
+.home-banner .slick-dots li {
+  width: fit-content;
+  height: fit-content;
+}
+
+.home-banner .slick-dots li div {
+  background-color: #fff;
+}
+
+.home-banner .slick-dots li.slick-active div {
+  background-color: #d1a95d;
+}
+
+.home-workspace .bg {
+  background: linear-gradient(270deg, rgba(24, 35, 118, 0.8) -6.81%, rgba(0, 30, 255, 0) 103.42%);
+  opacity: 0.05;
+}
+
+.home-workspace .slick-slider {
+  height: 655px;
+}
+
+.home-workspace .slick-slider .slick-list {
+  height: 655px;
+}
+
+.home-workspace .slick-dots li {
+  width: fit-content;
+}
+
+.home-workspace .slick-dots li div {
+  color: #9f9f9f;
+  position: relative;
+}
+
+.home-workspace .slick-dots li div::before {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 2px;
+  bottom: -6px;
+  background-color: #d1a95d;
+  transition: width 0.25s;
+}
+
+.home-workspace .slick-dots li div:hover {
+  color: #d1a95d;
+}
+
+.home-workspace .slick-dots li div:hover::before {
+  width: 50%;
+  color: #d1a95d;
+}
+
+.home-workspace .slick-dots li.slick-active div {
+  color: #d1a95d;
+}
+
+.home-workspace .slick-dots li.slick-active div::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  bottom: -6px;
+  background-color: #d1a95d;
+}
